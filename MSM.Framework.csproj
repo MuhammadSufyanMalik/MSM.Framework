@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Framework</Title>
+    <Authors>MuhammadSufyanMalik</Authors>
+    <Company>MalikSoft</Company>
+    <Description>Framework Contains all packages in one place.
+Security,EntityFramework,Dependency Resolver and many more</Description>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.1" />
+    <PackageReference Include="CrossCuttingConcerns" Version="1.0.0" />
+    <PackageReference Include="CustomBaseController" Version="1.0.0" />
+    <PackageReference Include="DependencyResolver" Version="1.0.0" />
+    <PackageReference Include="Entities" Version="1.0.0" />
+    <PackageReference Include="EntityFramework" Version="1.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.7.1" />
+    <PackageReference Include="Helper" Version="1.0.0" />
+    <PackageReference Include="Interceptors" Version="1.0.0" />
+    <PackageReference Include="IoC" Version="1.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Results" Version="1.0.2" />
+    <PackageReference Include="Security" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
